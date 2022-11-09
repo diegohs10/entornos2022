@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author interno
+ *
+ */
+module pruebaseclipse {
+}

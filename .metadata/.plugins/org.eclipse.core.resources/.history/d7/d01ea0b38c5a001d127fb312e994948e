@@ -1,0 +1,21 @@
+package programacion;
+
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Problemas11 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		//Dado un numero N imprime la lista de todos los numero primos hasta dicho numero N.
+		//Autor:Diego Herrera
+		//Fecha:24/10/2022
+		int frase;
+		
+		System.out.print("Ingresa una palabra: ");
+        frase = teclado.nextInt();
+        char[] palabra = {'P', 'a', 'l', 'b', 'r', 'a'}; // Vector de char
+        String cadena = new String(palabra);
+        
+	}
+}

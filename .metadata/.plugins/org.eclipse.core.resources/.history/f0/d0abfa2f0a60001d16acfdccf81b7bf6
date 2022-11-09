@@ -1,0 +1,21 @@
+package programacion;
+
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Problemas27 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		//Programa que va leyendo
+		//Autor:Diego Herrera
+		//Fecha:24/10/2022
+		String frase;
+		
+		do {
+			System.out.println("Ingrese una frase:");
+			frase=teclado.nextLine();
+		} 
+		while (!frase.equals(frase.toUpperCase()));
+	}
+}

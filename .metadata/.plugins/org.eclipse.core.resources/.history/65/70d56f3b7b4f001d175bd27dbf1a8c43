@@ -1,0 +1,26 @@
+package programacion;
+
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Problemas2 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		//Lee un número N que debe filtrarse entre 1 y 10 y a continuación calcula y escribe la tabla de multiplicar
+		//Autor:Diego Herrera
+		//Fecha:18/10/2022
+		int N;
+		int multiplicacion=0;
+		
+		System.out.print("Ingrese un numero:");
+		N=teclado.nextInt();
+		for (int i = N; i < 10; i++) {
+			multiplicacion+=i;
+		}
+		System.out.print(multiplicacion);
+			
+	}
+
+}
+

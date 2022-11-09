@@ -1,0 +1,33 @@
+package programacion;
+
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Problemas25 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		//Programa que va leyendo una frase por teclado (máximo 80) y a continuación escribir cuantas vocales, consonantes y caracteres numéricos posee.
+		//Autor:Diego Herrera
+		//Fecha:24/10/2022
+		String frase;
+		String frase2;
+		int contador=0;
+		int longitud;
+		int contcons;
+		int contvoc;
+		int contnum;
+		char caracter;
+		
+		do {
+			System.out.print("Ingrese una frase:");
+			frase=teclado.nextLine();
+			longitud=frase.length();
+		}while(longitud<80);
+		frase2=frase.toLowerCase();
+		for (int cont=0;cont<longitud;cont++) {
+			caracter=frase.charAt(cont);
+		};
+		
+	}
+}

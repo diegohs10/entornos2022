@@ -1,0 +1,18 @@
+package programacion;
+
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Problemas11 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		//Dado un numero N imprime la lista de todos los numero primos hasta dicho numero N.
+		//Autor:Diego Herrera
+		//Fecha:24/10/2022
+		String s1="Buenos ", s2="días", s3, s4;
+		s3 = s1 + s2;
+		s4 = s1.concat(s2);
+		System.out.print(s4);
+	}
+}
